@@ -11,7 +11,7 @@ import { Show } from "../models/Show";
 import { showsMapSelector } from "../selectors/Shows";
 import LoadingSpinner from "../Components/LoadingSpinner";
 import { loadShowAction, loadShowCastAction } from "../actions/shows";
-import { loadShowCast } from "../api";
+// import { loadShowCast } from "../api";
 
 type OwnProps = WithRouterProps;
 type ShowDetailPageProps = ReduxProps & OwnProps;
